@@ -10,18 +10,19 @@ on S3DF.
 ```shell
 source setup.sh
 ```
-"""
+
 Created on Thu Oct  5 21:23:52 2023
 
 @author: yuntse
 Also includes work by Dan Douglas and Liz Triller
-"""
-"First: source setup.sh"
-"""This may need to be edited to reflect your path to the files"""
-"then:"
-"""python3 bin/analyzePESignalMax_val.py -c "cfg_cold_651b9261/one_cfg" -s exttrig_2023_10_03_02_28_06_PDT.h5 -b exttrig_2023_10_03_03_05_54_PDT.h5 -t 'new try3'
 
-"""
+First: source setup.sh
+This may need to be edited to reflect your path to the files
+
+then:
+python3 bin/analyzePESignalMax_val.py -c "one_cfg" -s exttrig_2023_10_03_02_28_06_PDT.h5 -b exttrig_2023_10_03_03_05_54_PDT.h5 -t 'new try3'
+
+
 ## Laser/LED calibration data
 
 Both `bin/analyzePESignal.py` and `bin/analyzePESignalList.py` 
